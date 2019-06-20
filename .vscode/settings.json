@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    "jekyll-bootstrap-minimal/.sass-cache": true,
+    "jekyll-bootstrap-minimal/_site": true
+  }
+}
