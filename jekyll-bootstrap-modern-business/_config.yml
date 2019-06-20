@@ -1,0 +1,30 @@
+# Site
+name: 'jekyll-toolbox'
+description: 'Jekyll-Toolbox is a free Jekyll theme based on Bootstrap4 and the modern business template'
+logo:       # 'assets/images/logo.png'
+favicon:    # 'assets/images/logo.png'
+baseurl: '/'
+avatar:     # 'assets/images/sal.jpg'
+email: 'jekyll-toolbox@via-internet.de'
+
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-sitemap
+  - jekyll-paginate
+  
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 20
+
+
+sass:
+    sass_dir: /assets/css
+    style:    compressed
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
